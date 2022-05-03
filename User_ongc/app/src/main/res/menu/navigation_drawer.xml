@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_profile"
+        android:title="Personal Profile"
+        android:icon="@drawable/ic_profile"/>
+
+    <item android:id="@+id/navigation_organogram"
+        android:title="Organogram"
+        android:icon="@drawable/ic_org"/>
+
+    <item android:id="@+id/navigation_complain"
+        android:title="Complain"
+        android:icon="@drawable/ic_complain"/>
+
+    <item android:id="@+id/navigation_search"
+        android:title="Search Employee"
+        android:icon="@drawable/ic_search"/>
+
+    <item android:id="@+id/navigation_setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_setting"/>
+
+    <item android:id="@+id/navigation_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+
+</menu>

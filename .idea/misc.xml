@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/bttn.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/edittext_search_background.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_bloodtype_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_format_list_numbered_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_person_pin_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_phone_android_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_supervised_user_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_baseline_supervisor_account_24.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_date.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_edit.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_pdf.xml" value="0.22974358974358974" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/ic_time.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable-v24/textview.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable/button.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable/ic_search.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/drawable/input_field.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/font/allura.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/font/almendra_bold_italic.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/font/antic.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/font/architects_daughter.xml" value="0.2212962962962963" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_complaint.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_edit_profile.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_feedback.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_full_image_view.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_login.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_pdf.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_pdf_viewer.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_register.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_search_employee.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/activity_user_profile.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/branch_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/drawer_header.xml" value="0.10562310030395136" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/extra.xml" value="0.2115036231884058" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/fragment_gallery.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/fragment_notice.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/gallery_image.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/item.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/pdf_item_layout.xml" value="0.22" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/shimmer_for_pdf.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/layout/slider_item_layout.xml" value="0.2171875" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/menu/navigation_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/User_ongc/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12685185185185185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

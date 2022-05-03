@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".EditProfile">
+
+
+        <EditText
+            android:id="@+id/profilename"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Your Name"
+            app:layout_constraintEnd_toEndOf="@+id/editprofileimage"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="@+id/editprofileimage"
+            app:layout_constraintTop_toBottomOf="@+id/editprofileimage" />
+
+        <EditText
+            android:id="@+id/profileemail"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Your Email Address"
+            app:layout_constraintEnd_toEndOf="@+id/profilename"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/profilename"
+            app:layout_constraintTop_toBottomOf="@+id/profilename" />
+
+        <EditText
+            android:id="@+id/profilecpf"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Your CPF Number"
+            app:layout_constraintEnd_toEndOf="@+id/profileemail"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/profileemail"
+            app:layout_constraintTop_toBottomOf="@+id/profileemail" />
+
+        <Button
+            android:id="@+id/saveprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/profilebloodgroup"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="@+id/profilebloodgroup"
+            app:layout_constraintTop_toBottomOf="@+id/profilebloodgroup" />
+
+        <ImageView
+            android:id="@+id/editprofileimage"
+            android:layout_width="165dp"
+            android:layout_height="138dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/profilesection"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Section"
+            app:layout_constraintEnd_toEndOf="@+id/profilecpf"
+            app:layout_constraintStart_toStartOf="@+id/profilecpf"
+            app:layout_constraintTop_toBottomOf="@+id/profilecpf" />
+
+        <EditText
+            android:id="@+id/profiledesignation"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Designation"
+            app:layout_constraintEnd_toEndOf="@+id/profilesection"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/profilesection"
+            app:layout_constraintTop_toBottomOf="@+id/profilesection" />
+
+        <EditText
+            android:id="@+id/profilephonenumber"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Phone Number"
+            app:layout_constraintEnd_toEndOf="@+id/profiledesignation"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/profiledesignation"
+            app:layout_constraintTop_toBottomOf="@+id/profiledesignation"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/profiledutypattern"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Duty Pattern"
+            app:layout_constraintEnd_toEndOf="@+id/profilephonenumber"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/profilephonenumber"
+            app:layout_constraintTop_toBottomOf="@+id/profilephonenumber" />
+
+        <EditText
+            android:id="@+id/profilebloodgroup"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Blood Group"
+            app:layout_constraintEnd_toEndOf="@+id/profiledutypattern"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/profiledutypattern"
+            app:layout_constraintTop_toBottomOf="@+id/profiledutypattern" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

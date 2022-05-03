@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">User_ongc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="about_ongc">The Oil and Natural Gas Corporation (ONGC) is an Indian government-owned crude oil and natural gas corporation. Its registered office is in New Delhi. The operations are overseen by the Ministry of Petroleum and Natural Gas. It is the largest government-owned-oil and gas exploration and production corporation in the country, and produces around 70% of Indias crude oil (equivalent to around 57% of the countrys total demand) and around 84% of its natural gas.</string>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+
+        android:ems="10"
+
+        android:hint="Email id"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/uname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/uname"
+        app:layout_constraintTop_toBottomOf="@+id/uname" />
+
+    <EditText
+        android:id="@+id/cpfno"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+
+        android:ems="10"
+
+        android:hint="CPF Number"
+
+        android:inputType="textPersonName"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="116dp"
+
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="User Name"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bloodgroup"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="Blood Group"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/dutypattern"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dutypattern"
+        app:layout_constraintTop_toBottomOf="@+id/dutypattern" />
+
+    <EditText
+        android:id="@+id/dutypattern"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="Duty Pattern"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/phoneno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phoneno"
+        app:layout_constraintTop_toBottomOf="@+id/phoneno" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/designation"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/designation"
+        app:layout_constraintTop_toBottomOf="@+id/designation" />
+
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="Designation"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/Section"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Section"
+        app:layout_constraintTop_toBottomOf="@+id/Section" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/cpfno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cpfno"
+        app:layout_constraintTop_toBottomOf="@+id/cpfno" />
+
+    <EditText
+        android:id="@+id/Section"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+
+
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="8dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+
+        android:hint="Section"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/Password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Password"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="182dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/bloodgroup"
+        app:layout_constraintStart_toStartOf="@+id/bloodgroup"
+        app:layout_constraintTop_toBottomOf="@+id/bloodgroup" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+
+        android:layout_marginTop="13dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/register"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/register"
+        app:layout_constraintTop_toBottomOf="@+id/register" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Already have an account? Login"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/register"
+        app:layout_constraintStart_toStartOf="@+id/register"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        app:layout_constraintVertical_bias="0.795" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
